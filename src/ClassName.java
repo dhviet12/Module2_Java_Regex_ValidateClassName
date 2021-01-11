@@ -4,7 +4,7 @@ import java.util.regex.Pattern;
 public class ClassName {
     private static Pattern pattern;
     private Matcher matcher;
-    private static final String CLASSNAME_REGEX="^[CAP]{1}+[0-9]{4}+[GHIKLM]$";
+    private static final String CLASSNAME_REGEX="^[CAP][0-9]{4}[GHIKLM]$";
 
     public ClassName() {
     }
